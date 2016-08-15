@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Aq.NETCore.Tools.Version": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
+}
