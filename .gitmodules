@@ -1,0 +1,4 @@
+[submodule "submodules/commandline"]
+	path = submodules/commandline
+	url = git@github.com:gsscoder/commandline.git
+	branch = dotnet-core

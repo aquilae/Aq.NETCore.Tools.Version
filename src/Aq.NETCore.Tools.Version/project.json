@@ -1,5 +1,29 @@
 {
   "version": "0.0.1",
+
+  "title": "Aq.NETCore.Tools.Version",
+  "authors": [
+    "Ilya \"aq\" Kozlov"
+  ],
+  "description": "project.json version manipulation CLI",
+
+  "packOptions": {
+    "projectUrl": "https://github.com/aquilae/Aq.NETCore.Tools.Version",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aquilae/Aq.NETCore.Tools.Version"
+    },
+    "summary": "project.json version manipulation CLI",
+    "licenseUrl": "https://github.com/aquilae/Aq.NETCore.Tools.Version/blob/master/LICENSE",
+    "owners": [
+      "Ilya \"aq\" Kozlov"
+    ],
+    "tags": [
+      "tools",
+      "CLI"
+    ]
+  },
+
   "buildOptions": {
     "emitEntryPoint": true,
     "outputName": "dotnet-version"
