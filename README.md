@@ -14,7 +14,8 @@
 ```
 
 - In project directory:  
-`dotnet version increment` - will increment PATCH number  
-`dotnet version increment major` - will increment MAJOR number  
-`dotnet version increment minor` - will increment MINOR number  
-`dotnet version increment patch` - will increment PATCH number
+```bash
+dotnet version --help # print usage info
+dotnet version path/to/project.json --increment=patch # increment PATCH number of specified project.json by 1
+dotnet version -i minor -v 2 -d json # increment MINOR number of ./project.json by 2 and print out new version in JSON format
+```

@@ -1,12 +1,10 @@
 {
-  "version": "0.0.1",
-
+  "version": "0.0.2",
   "title": "Aq.NETCore.Tools.Version",
   "authors": [
     "Ilya \"aq\" Kozlov"
   ],
   "description": "project.json version manipulation CLI",
-
   "packOptions": {
     "projectUrl": "https://github.com/aquilae/Aq.NETCore.Tools.Version",
     "repository": {
@@ -23,16 +21,13 @@
       "CLI"
     ]
   },
-
   "buildOptions": {
     "emitEntryPoint": true,
     "outputName": "dotnet-version"
   },
-
   "dependencies": {
     "Newtonsoft.Json": "9.*" 
   },
-
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
